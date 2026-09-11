@@ -1,0 +1,162 @@
+:root {
+  --eka-navy: #081f3d;
+  --eka-blue: #0b5fa5;
+  --eka-cyan: #16a4b8;
+  --eka-ink: #152437;
+  --eka-muted: #5b6876;
+  --eka-line: #d9e2ec;
+  --eka-surface: #f4f8fb;
+}
+
+body {
+  color: var(--eka-ink);
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.navbar-brand {
+  font-weight: 750;
+  letter-spacing: 0.01em;
+}
+
+.navbar {
+  box-shadow: 0 2px 16px rgba(5, 22, 44, 0.12);
+}
+
+h1, h2, h3 {
+  color: var(--eka-navy);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  margin-top: 2.4rem;
+  font-weight: 750;
+}
+
+a {
+  color: var(--eka-blue);
+  text-underline-offset: 0.18em;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(12rem, 0.7fr);
+  gap: 3rem;
+  align-items: center;
+  max-width: 1180px;
+  margin: 2.5rem auto 4.5rem;
+  padding: 3.8rem;
+  color: white;
+  background:
+    radial-gradient(circle at 85% 15%, rgba(22, 164, 184, 0.32), transparent 34%),
+    linear-gradient(135deg, #06172e 0%, #0a3764 100%);
+  border-radius: 1.2rem;
+  box-shadow: 0 24px 70px rgba(4, 24, 48, 0.2);
+}
+
+.hero h2 {
+  margin-top: 0;
+  color: white;
+  font-size: clamp(1.6rem, 3.4vw, 2.65rem);
+  line-height: 1.18;
+}
+
+.hero p {
+  max-width: 760px;
+  color: #e8f2fa;
+  font-size: 1.08rem;
+}
+
+.hero-mark {
+  display: grid;
+  place-items: center;
+  width: min(100%, 15rem);
+  aspect-ratio: 1;
+  margin-inline: auto;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: clamp(2.3rem, 5vw, 4.2rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  box-shadow: inset 0 0 0 12px rgba(255, 255, 255, 0.04);
+}
+
+.hero .btn {
+  margin: 0.35rem 0.4rem 0.2rem 0;
+}
+
+.hero .btn-primary {
+  background: var(--eka-cyan);
+  border-color: var(--eka-cyan);
+}
+
+.hero .btn-outline-primary,
+.hero .btn-outline-secondary {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.65);
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin: 1.4rem 0 3rem;
+}
+
+.focus-card,
+.publication-card {
+  padding: 1.45rem;
+  border: 1px solid var(--eka-line);
+  border-radius: 0.8rem;
+  background: white;
+  box-shadow: 0 8px 24px rgba(10, 39, 70, 0.055);
+}
+
+.focus-card h3,
+.publication-card h3 {
+  margin-top: 0;
+}
+
+.publication-card {
+  margin: 1.1rem 0;
+  border-left: 4px solid var(--eka-cyan);
+}
+
+.more-link {
+  display: inline-block;
+  margin: 0.4rem 0 1rem;
+  font-weight: 700;
+}
+
+.quarto-title-banner {
+  background: linear-gradient(120deg, var(--eka-navy), #0b477c);
+}
+
+.quarto-title-banner h1,
+.quarto-title-banner .description {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 2.2rem 1.4rem;
+    margin-top: 1.2rem;
+  }
+
+  .hero-mark {
+    width: 10rem;
+    grid-row: 1;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

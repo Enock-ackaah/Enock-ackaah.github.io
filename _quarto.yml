@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Enock Kumi Ackaah"
+  site-url: "https://enock-ackaah.github.io"
+  description: "Applied statistician and biomedical data science researcher working on reliable and interpretable machine learning."
+  favicon: assets/favicon.svg
+  navbar:
+    background: "#081f3d"
+    foreground: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: "https://github.com/Enock-ackaah"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/ackaah-enock-kumi"
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Enock Kumi Ackaah"
+    right: "Built with Quarto and published with GitHub Pages"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+

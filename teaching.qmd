@@ -1,0 +1,40 @@
+---
+title: "Teaching"
+description: "Teaching, academic appointments, and statistical consulting experience."
+---
+
+## Teaching experience
+
+### Graduate Teaching Assistant
+
+**Department of Statistics, The University of Akron**  
+August 2024–May 2026
+
+- Led weekly statistics laboratories for approximately 15–20 students.
+- Connected statistical concepts with applied software-based analysis.
+- Tutored students in statistics, probability, R, SPSS, and Minitab.
+- Graded assignments and assessments and provided detailed feedback.
+
+### Teaching Assistant
+
+**University of Cape Coast**  
+September 2023–July 2024
+
+- Tutored undergraduate students in statistics and quantitative methods.
+- Supported grading and instructional activities.
+
+## Statistical consulting
+
+### Graduate Statistical Consulting
+
+**The University of Akron** · Spring 2026  
+Faculty supervisor: Dr. Jun Ye
+
+Translated an applied research question into an analytical plan, interpreted results, and communicated findings in a team presentation.
+
+## Selected presentations
+
+- *Cancer Classification in Low- and High-Dimensional Data: A Comparative Study Using Supervised and Semi-Supervised Machine Learning.* Master’s research defense, The University of Akron, May 2026.
+- *Statistical Consulting Project Presentation.* Graduate Statistical Consulting, The University of Akron, Spring 2026.
+- *Lung Cancer.* Graduate coursework presentation, The University of Akron, Fall 2025. [DOI](https://doi.org/10.13140/RG.2.2.31418.25282)
+

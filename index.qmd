@@ -1,0 +1,74 @@
+---
+title: "Enock Kumi Ackaah"
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+::: {.hero-copy}
+## Applied Statistics · Machine Learning · Biomedical Data Science
+
+I am an applied statistician and biomedical data science researcher developing reliable, interpretable, and reproducible machine-learning methods for complex biomedical data.
+
+My work focuses on high-dimensional and small-sample prediction, external validation, model calibration, feature-selection stability, and clinically meaningful evaluation.
+
+[Explore my research](research.qmd){.btn .btn-primary} [View publications](publications.qmd){.btn .btn-outline-primary} [Download CV](assets/Enock_Kumi_Ackaah_CV.pdf){.btn .btn-outline-secondary}
+:::
+
+::: {.hero-mark aria-label="EKA initials"}
+EKA
+:::
+:::
+
+## Research at a glance
+
+::: {.research-grid}
+::: {.focus-card}
+### Reliable biomedical AI
+
+Evaluating whether predictive performance remains stable across samples, validation settings, and external populations.
+:::
+
+::: {.focus-card}
+### High-dimensional data
+
+Developing leakage-safe analyses for RNA-sequencing, DNA-methylation, clinical, and multimodal biomedical datasets.
+:::
+
+::: {.focus-card}
+### Interpretability and validation
+
+Studying feature stability, calibration, uncertainty, reproducibility, and human oversight in healthcare prediction models.
+:::
+:::
+
+## Latest publications
+
+::: {.publication-card}
+### Predictive Analytics and Machine Learning for Energy Forecasting and Load Optimisation in Hospital Systems
+
+*Journal of Scientific Research and Reports*, 32(9), 448–467, September 2026  
+A critical narrative review of predictive analytics and machine learning for hospital energy forecasting and load optimisation.
+
+[Read the article](https://doi.org/10.9734/jsrr/2026/v32i94483)
+:::
+
+::: {.publication-card}
+### Reducing False Positives and False Negatives in Artificial Intelligence-assisted Imaging Screening
+
+*Journal of Advances in Medical and Pharmaceutical Sciences*, 28(9), 104–125, August 2026  
+A critical review of screening accuracy, error mechanisms, and the clinical translation of AI-assisted imaging.
+
+[Read the article](https://doi.org/10.9734/jamps/2026/v28i9891)
+:::
+
+[See all publications →](publications.qmd){.more-link}
+
+## Current research
+
+### Statistical Reliability of High-Dimensional Breast Cancer RNA-Sequencing Models
+
+This project examines how development sample size affects predictive performance, feature-selection stability, coefficient-direction reproducibility, probability accuracy, and external generalization in estrogen-receptor status prediction.
+
+[Project details](research.qmd#statistical-reliability-of-high-dimensional-breast-cancer-rna-sequencing-models) · [GitHub repository](https://github.com/Enock-ackaah/statistical-reliability-high-dimensional-er-models) · [Zenodo release](https://doi.org/10.5281/zenodo.21524693)
+

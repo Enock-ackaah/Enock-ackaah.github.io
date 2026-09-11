@@ -1,0 +1,46 @@
+---
+title: "Research"
+description: "Research themes and selected projects in biomedical data science, statistical reliability, and machine learning."
+---
+
+## Research focus
+
+My research develops and evaluates statistical and machine-learning methods for complex biomedical prediction problems. I am particularly interested in the reliability of models trained with many features and limited samples.
+
+- Reliable and explainable artificial intelligence for biomedical prediction
+- Statistical reliability of high-dimensional and small-sample models
+- RNA-sequencing and DNA-methylation analysis
+- Feature-selection stability and explanation reproducibility
+- Model calibration, uncertainty estimation, and external validation
+- Human-supervised AI for healthcare decision support
+
+## Statistical Reliability of High-Dimensional Breast Cancer RNA-Sequencing Models
+
+This independent project evaluates estrogen-receptor status prediction using GSE81538 for model development and GSE96058 for independent external validation.
+
+The analysis includes 18,213 aligned genes, repeated stratified validation, development-sample-size stress testing, feature-selection stability, coefficient-direction reproducibility, bootstrap confidence intervals, and Brier-score assessment.
+
+The fitted models achieved strong external discrimination while the sample-size experiments demonstrated severe instability at small development sizes. The project includes analysis notebooks, compact results, model documentation, integrity checks, and a reproducible software release.
+
+[View repository](https://github.com/Enock-ackaah/statistical-reliability-high-dimensional-er-models) · [Software release](https://doi.org/10.5281/zenodo.21524693)
+
+## Cancer Classification in Low- and High-Dimensional Biomedical Data
+
+This study compares logistic regression, support vector machines, random forests, and K-nearest neighbors using low-dimensional breast-tissue measurements and high-dimensional osteosarcoma DNA-methylation data.
+
+The low-dimensional models produced comparatively stable results. The high-dimensional analysis demonstrated the reliability problems that arise when the number of molecular features is extremely large relative to the available sample size.
+
+[View repository](https://github.com/Enock-ackaah/cancer-classification-low-high-dimensional-data) · [Read the preprint](https://doi.org/10.20944/preprints202608.0073.v1)
+
+## DNA-Methylation-Based Tumor-Normal Classification
+
+An interpretable colorectal tumor-versus-normal classification workflow using LASSO and Elastic Net logistic regression with high-dimensional DNA-methylation data.
+
+[View repository](https://github.com/Enock-ackaah/DNA-Methylation-Based-Tumor-Normal-Classification) · [Software release](https://doi.org/10.5281/zenodo.21819138)
+
+## Transcriptomic Comparison of CHP and IPF
+
+A reproducible RNA-sequencing and DESeq2 analysis comparing chronic hypersensitivity pneumonitis and idiopathic pulmonary fibrosis using GSE150910.
+
+[View repository](https://github.com/Enock-ackaah/Transcriptomic-Comparison-of-Chronic-Hypersensitivity-Pneumonitis-and-Idiopathic-Pulmonary-Fibrosis-)
+

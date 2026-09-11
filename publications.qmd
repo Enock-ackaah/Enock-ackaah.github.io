@@ -1,0 +1,53 @@
+---
+title: "Publications"
+description: "Peer-reviewed articles, preprints, manuscripts, and research software by Enock Kumi Ackaah."
+---
+
+## Peer-reviewed journal articles
+
+::: {.publication-card}
+### Predictive Analytics and Machine Learning for Energy Forecasting and Load Optimisation in Hospital Systems: A Critical Narrative Review
+
+**Confidence Akosile, Obianuju Ezenwanne, Enock Ackaah, et al.**  
+*Journal of Scientific Research and Reports*, 32(9), 448–467, September 2026.
+
+[DOI: 10.9734/jsrr/2026/v32i94483](https://doi.org/10.9734/jsrr/2026/v32i94483)
+:::
+
+::: {.publication-card}
+### Reducing False Positives and False Negatives in Artificial Intelligence-assisted Imaging Screening: A Critical Review of Accuracy, Error Mechanisms and Clinical Translation
+
+**Musa Shamaki Ibrahim, Enock Ackaah, Charity Benewa Acheampong, et al.**  
+*Journal of Advances in Medical and Pharmaceutical Sciences*, 28(9), 104–125, August 2026.
+
+[DOI: 10.9734/jamps/2026/v28i9891](https://doi.org/10.9734/jamps/2026/v28i9891)
+:::
+
+## Preprints
+
+### Cancer Classification in Low- and High-Dimensional Biomedical Data Using Machine Learning Models
+
+**Ackaah, E. K., & Datta, S.** (2026). *Preprints*.
+
+[DOI: 10.20944/preprints202608.0073.v1](https://doi.org/10.20944/preprints202608.0073.v1) · [GitHub repository](https://github.com/Enock-ackaah/cancer-classification-low-high-dimensional-data)
+
+## Manuscripts in preparation
+
+### Artificial Intelligence in the Biomedical Sciences and Healthcare—Its Impact, Potential Benefits and Pitfalls
+
+**Ackaah, E. K., & Datta, S.** Narrative review in preparation.
+
+## Research software
+
+### Statistical Reliability of High-Dimensional ER-Status Prediction Models
+
+**Ackaah, E. K.** (2026). Version 0.1.1. Zenodo.
+
+[DOI: 10.5281/zenodo.21524693](https://doi.org/10.5281/zenodo.21524693) · [GitHub repository](https://github.com/Enock-ackaah/statistical-reliability-high-dimensional-er-models)
+
+### Frozen 72-CpG DNA Methylation Classifier for Colorectal Tumor Detection
+
+**Ackaah, E. K.** (2026). Version 1.0.0. Zenodo.
+
+[DOI: 10.5281/zenodo.21819138](https://doi.org/10.5281/zenodo.21819138) · [GitHub repository](https://github.com/Enock-ackaah/DNA-Methylation-Based-Tumor-Normal-Classification)
+
