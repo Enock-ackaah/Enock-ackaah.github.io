@@ -1,10 +1,9 @@
 ---
-title: false
-pagetitle: "Enock Kumi Ackaah"
+title: "Enock Kumi Ackaah"
+body-classes: homepage
 page-layout: full
 toc: false
 ---
-
 ::: {.hero}
 ::: {.hero-copy}
 ## Applied Statistics · Machine Learning · Biomedical Data Science
