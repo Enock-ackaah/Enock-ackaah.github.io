@@ -4,6 +4,11 @@ body-classes: homepage
 page-layout: full
 toc: false
 ---
+<style>
+#title-block-header {
+  display: none !important;
+}
+</style>
 ::: {.hero}
 ::: {.hero-copy}
 ## Applied Statistics · Machine Learning · Biomedical Data Science
