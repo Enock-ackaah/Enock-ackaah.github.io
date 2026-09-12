@@ -159,4 +159,33 @@ a {
     grid-template-columns: 1fr;
   }
 }
+.teaching-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+}
 
+.teaching-gallery figure {
+  margin: 0;
+}
+
+.teaching-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(10, 39, 70, 0.12);
+}
+
+.teaching-gallery figcaption {
+  margin-top: 0.5rem;
+  color: #5b6876;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 800px) {
+  .teaching-gallery {
+    grid-template-columns: 1fr;
+  }
+}
