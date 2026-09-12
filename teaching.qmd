@@ -1,6 +1,8 @@
 ---
 title: "Teaching"
 description: "Teaching, academic appointments, and statistical consulting experience."
+toc: false
+page-layout: full
 ---
 
 ## Teaching approach
