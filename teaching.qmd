@@ -45,3 +45,9 @@ August 2024–May 2026 · Akron, Ohio
 Faculty supervisor: Dr. Jun Ye
 
 Translated an applied research question into an analytical plan, interpreted the results, and communicated the findings through a collaborative presentation.
+
+### Statistics Consulting Presentation
+
+As part of my statistics consulting coursework, I participated in a classroom presentation focused on communicating statistical methods, analytical findings, and practical recommendations clearly to an audience.
+
+![Statistics consulting classroom presentation.](assets/statistics-consulting-presentation.jpg){fig-align="center" width="85%"}
