@@ -1,5 +1,6 @@
 ---
-title: "Enock Kumi Ackaah"
+title: false
+pagetitle: "Enock Kumi Ackaah"
 page-layout: full
 toc: false
 ---
