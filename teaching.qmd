@@ -28,6 +28,15 @@ August 2024–May 2026 · Akron, Ohio
 - Provided individual and group tutoring in statistics, probability, R, SPSS, and Minitab.
 - Graded assignments and assessments for large course sections and provided constructive feedback to support student learning.
 
+### Teaching in Action
+
+::: {.teaching-gallery}
+![Leading a statistics laboratory session at The University of Akron.](assets/uakron-statistics-lab1.jpg)
+
+![Supporting students during an applied statistics session.](assets/uakron-statistics-lab2.jpg)
+
+![Explaining statistical concepts and problem-solving methods to students.](assets/uakron-statistics-lab3.jpg)
+:::
 ## Statistical consulting
 
 ### Graduate Statistical Consulting
