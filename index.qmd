@@ -69,6 +69,8 @@ A critical review of screening accuracy, error mechanisms, and the clinical tran
 ### Statistical Reliability of High-Dimensional Breast Cancer RNA-Sequencing Models
 
 This project examines how development sample size affects predictive performance, feature-selection stability, coefficient-direction reproducibility, probability accuracy, and external generalization in estrogen-receptor status prediction.
-
+.homepage #title-block-header {
+  display: none;
+}
 [Project details](research.qmd#statistical-reliability-of-high-dimensional-breast-cancer-rna-sequencing-models) · [GitHub repository](https://github.com/Enock-ackaah/statistical-reliability-high-dimensional-er-models) · [Zenodo release](https://doi.org/10.5281/zenodo.21524693)
 
