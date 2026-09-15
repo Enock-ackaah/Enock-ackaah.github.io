@@ -1,6 +1,7 @@
 ---
 title: "Research"
 description: "Research themes and selected projects in biomedical data science, statistical reliability, and machine learning."
+page-layout: full
 ---
 
 ## Research focus
@@ -43,4 +44,3 @@ An interpretable colorectal tumor-versus-normal classification workflow using LA
 A reproducible RNA-sequencing and DESeq2 analysis comparing chronic hypersensitivity pneumonitis and idiopathic pulmonary fibrosis using GSE150910.
 
 [View repository](https://github.com/Enock-ackaah/Transcriptomic-Comparison-of-Chronic-Hypersensitivity-Pneumonitis-and-Idiopathic-Pulmonary-Fibrosis-)
-

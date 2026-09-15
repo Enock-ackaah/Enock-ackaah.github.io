@@ -1,191 +1,183 @@
 :root {
-  --eka-navy: #081f3d;
-  --eka-blue: #0b5fa5;
-  --eka-cyan: #16a4b8;
-  --eka-ink: #152437;
-  --eka-muted: #5b6876;
-  --eka-line: #d9e2ec;
-  --eka-surface: #f4f8fb;
+  --academic-gold: #9a6800;
+  --academic-gold-dark: #744e00;
+  --academic-ink: #28231e;
+  --academic-muted: #625b52;
+  --academic-line: #dedbd5;
+  --academic-paper: #fff;
+  --academic-soft: #f7f5f0;
 }
 
+html { scroll-behavior: smooth; }
+
 body {
-  color: var(--eka-ink);
-  font-size: 1.02rem;
+  background: var(--academic-paper);
+  color: var(--academic-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
   line-height: 1.72;
 }
 
-.navbar-brand {
-  font-weight: 750;
-  letter-spacing: 0.01em;
+.navbar {
+  min-height: 4.4rem;
+  border-bottom: 1px solid var(--academic-line);
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.97) !important;
 }
 
-.navbar {
-  box-shadow: 0 2px 16px rgba(5, 22, 44, 0.12);
+.navbar .navbar-nav { gap: .35rem; }
+.navbar .nav-link {
+  position: relative;
+  padding: 1.25rem .8rem .85rem !important;
+  color: var(--academic-ink) !important;
+  font-size: 1rem;
 }
+.navbar .nav-link.active,
+.navbar .nav-link:hover { color: var(--academic-gold-dark) !important; }
+.navbar .nav-link.active::after {
+  position: absolute;
+  right: .8rem;
+  bottom: .45rem;
+  left: .8rem;
+  height: 2px;
+  background: var(--academic-gold);
+  content: "";
+}
+.navbar-toggler { border: 1px solid var(--academic-line); }
+
+#quarto-content { max-width: 1240px; margin-inline: auto; }
+main.content { padding-top: 2.25rem; }
 
 h1, h2, h3 {
-  color: var(--eka-navy);
-  letter-spacing: -0.02em;
+  color: var(--academic-gold-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0;
 }
+h1 { font-size: clamp(2rem, 4vw, 2.65rem); }
+h2 { margin-top: 2.25rem; font-size: 1.75rem; }
+h3 { margin-top: 1rem; font-size: 1.1rem; line-height: 1.45; }
 
-h1 {
-  font-weight: 800;
-}
+a { color: var(--academic-gold-dark); text-underline-offset: .18em; }
+a:hover { color: #3b2a00; }
 
-h2 {
-  margin-top: 2.4rem;
-  font-weight: 750;
-}
+.quarto-title-block { margin-bottom: 2rem; }
+.quarto-title-block .title { border-bottom: 1px solid var(--academic-line); padding-bottom: .75rem; }
+.academic-home #title-block-header { display: none !important; }
 
-a {
-  color: var(--eka-blue);
-  text-underline-offset: 0.18em;
-}
-
-.hero {
+.profile-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.8fr) minmax(12rem, 0.7fr);
-  gap: 3rem;
+  grid-template-columns: 270px minmax(0, 1fr);
+  gap: clamp(3rem, 8vw, 7rem);
+  align-items: start;
+  margin: .4rem 0 3.5rem;
+}
+.profile-card {
+  position: sticky;
+  top: 6rem;
+  text-align: center;
+}
+.profile-card h1 { margin: 1.2rem 0 .8rem; font-size: 1.72rem; }
+.profile-card p { color: var(--academic-muted); line-height: 1.55; }
+.profile-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1.05;
+  border: 1px solid #d8d0c2;
+  background: var(--academic-soft);
+  object-fit: cover;
+  object-position: center center;
+  box-shadow: 0 5px 18px rgba(42, 32, 16, .12);
+}
+.profile-content h2:first-child { margin-top: 0; }
+.profile-content > p { max-width: 800px; }
+.education-entry { margin: 0 0 1.05rem; }
+.education-entry p { margin: 0; }
+
+.publication-row {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 2rem;
   align-items: center;
-  max-width: 1180px;
-  margin: 2.5rem auto 4.5rem;
-  padding: 3.8rem;
-  color: white;
-  background:
-    radial-gradient(circle at 85% 15%, rgba(22, 164, 184, 0.32), transparent 34%),
-    linear-gradient(135deg, #06172e 0%, #0a3764 100%);
-  border-radius: 1.2rem;
-  box-shadow: 0 24px 70px rgba(4, 24, 48, 0.2);
+  margin: 1.5rem 0 3rem;
 }
-
-.hero h2 {
-  margin-top: 0;
-  color: white;
-  font-size: clamp(1.6rem, 3.4vw, 2.65rem);
-  line-height: 1.18;
+.publication-thumb {
+  overflow: hidden;
+  border: 1px solid #d8d4cd;
+  border-radius: .25rem;
+  background: var(--academic-soft);
+  box-shadow: 0 5px 14px rgba(42, 32, 16, .12);
 }
-
-.hero p {
-  max-width: 760px;
-  color: #e8f2fa;
-  font-size: 1.08rem;
+.publication-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.4 / 1;
+  object-fit: cover;
+  margin: 0;
 }
-
-.hero-mark {
-  display: grid;
-  place-items: center;
-  width: min(100%, 15rem);
-  aspect-ratio: 1;
-  margin-inline: auto;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
-  color: white;
-  font-size: clamp(2.3rem, 5vw, 4.2rem);
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  box-shadow: inset 0 0 0 12px rgba(255, 255, 255, 0.04);
-}
-
-.hero .btn {
-  margin: 0.35rem 0.4rem 0.2rem 0;
-}
-
-.hero .btn-primary {
-  background: var(--eka-cyan);
-  border-color: var(--eka-cyan);
-}
-
-.hero .btn-outline-primary,
-.hero .btn-outline-secondary {
-  color: white;
-  border-color: rgba(255, 255, 255, 0.65);
-}
-
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.2rem;
-  margin: 1.4rem 0 3rem;
-}
-
-.focus-card,
-.publication-card {
-  padding: 1.45rem;
-  border: 1px solid var(--eka-line);
-  border-radius: 0.8rem;
-  background: white;
-  box-shadow: 0 8px 24px rgba(10, 39, 70, 0.055);
-}
-
-.focus-card h3,
-.publication-card h3 {
-  margin-top: 0;
-}
-
-.publication-card {
-  margin: 1.1rem 0;
-  border-left: 4px solid var(--eka-cyan);
-}
-
-.more-link {
+.publication-thumb figure { margin: 0; }
+.publication-thumb figcaption { display: none; }
+.publication-details h3 { margin: 0 0 .35rem; color: var(--academic-gold); }
+.publication-details p { margin: .25rem 0; }
+.paper-link {
   display: inline-block;
-  margin: 0.4rem 0 1rem;
-  font-weight: 700;
+  margin: .4rem .3rem 0 0;
+  padding: .08rem .65rem;
+  border: 1px solid var(--academic-ink);
+  color: var(--academic-ink);
+  font-size: .88rem;
+  line-height: 1.45;
+  text-decoration: none;
 }
+.paper-link:hover { background: var(--academic-ink); color: white; }
 
-.quarto-title-banner {
-  background: linear-gradient(120deg, var(--eka-navy), #0b477c);
+.publication-card {
+  margin: 1.4rem 0 2rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--academic-line);
 }
+.publication-card h3 { color: var(--academic-gold); }
 
-.quarto-title-banner h1,
-.quarto-title-banner .description {
-  color: white;
-}
-
-@media (max-width: 800px) {
-  .hero {
-    grid-template-columns: 1fr;
-    padding: 2.2rem 1.4rem;
-    margin-top: 1.2rem;
-  }
-
-  .hero-mark {
-    width: 10rem;
-    grid-row: 1;
-  }
-
-  .research-grid {
-    grid-template-columns: 1fr;
-  }
-}
 .teaching-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.5rem 0 2.5rem;
 }
-
-.teaching-gallery figure {
-  margin: 0;
-}
-
+.teaching-gallery figure { margin: 0; }
 .teaching-gallery img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: 0.75rem;
-  box-shadow: 0 8px 24px rgba(10, 39, 70, 0.12);
+  border-radius: .2rem;
+  box-shadow: 0 5px 14px rgba(42, 32, 16, .12);
+}
+.teaching-gallery figcaption { margin-top: .45rem; color: var(--academic-muted); font-size: .88rem; }
+
+.quarto-figure-center {
+  max-width: 720px;
+  margin: 1.5rem auto 2.5rem;
+}
+.quarto-figure-center img {
+  max-height: 720px;
+  object-fit: contain;
+  box-shadow: 0 5px 18px rgba(42, 32, 16, .12);
 }
 
-.teaching-gallery figcaption {
-  margin-top: 0.5rem;
-  color: #5b6876;
-  font-size: 0.9rem;
+.page-footer {
+  margin-top: 4rem;
+  border-top: 1px solid var(--academic-line);
+  background: white;
+  color: var(--academic-muted);
 }
 
 @media (max-width: 800px) {
-  .teaching-gallery {
-    grid-template-columns: 1fr;
-  }
+  body { font-size: 1rem; }
+  main.content { padding-top: 1.25rem; }
+  .profile-layout { grid-template-columns: 1fr; gap: 2.4rem; }
+  .profile-card { position: static; max-width: 320px; margin-inline: auto; }
+  .publication-row { grid-template-columns: 1fr; gap: 1rem; }
+  .publication-thumb { max-width: 340px; }
+  .teaching-gallery { grid-template-columns: 1fr; }
+  .navbar .nav-link { padding: .65rem .8rem !important; }
+  .navbar .nav-link.active::after { display: none; }
 }

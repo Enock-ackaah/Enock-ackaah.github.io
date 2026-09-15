@@ -1,26 +1,37 @@
 ---
 title: "Publications"
 description: "Peer-reviewed articles, preprints, manuscripts, and research software by Enock Kumi Ackaah."
+page-layout: full
 ---
 
 ## Peer-reviewed journal articles
 
-::: {.publication-card}
+::: {.publication-row}
+::: {.publication-thumb}
+![Hospital energy forecasting review article record.](assets/publication-energy.png)
+:::
+::: {.publication-details}
 ### Predictive Analytics and Machine Learning for Energy Forecasting and Load Optimisation in Hospital Systems: A Critical Narrative Review
 
 **Confidence Akosile, Obianuju Ezenwanne, Enock Ackaah, et al.**  
 *Journal of Scientific Research and Reports*, 32(9), 448–467, September 2026.
 
-[DOI: 10.9734/jsrr/2026/v32i94483](https://doi.org/10.9734/jsrr/2026/v32i94483)
+[Article](https://doi.org/10.9734/jsrr/2026/v32i94483){.paper-link}
+:::
 :::
 
-::: {.publication-card}
+::: {.publication-row}
+::: {.publication-thumb}
+![AI-assisted imaging screening review article record.](assets/publication-imaging.png)
+:::
+::: {.publication-details}
 ### Reducing False Positives and False Negatives in Artificial Intelligence-assisted Imaging Screening: A Critical Review of Accuracy, Error Mechanisms and Clinical Translation
 
 **Musa Shamaki Ibrahim, Enock Ackaah, Charity Benewa Acheampong, et al.**  
 *Journal of Advances in Medical and Pharmaceutical Sciences*, 28(9), 104–125, August 2026.
 
-[DOI: 10.9734/jamps/2026/v28i9891](https://doi.org/10.9734/jamps/2026/v28i9891)
+[Article](https://doi.org/10.9734/jamps/2026/v28i9891){.paper-link}
+:::
 :::
 
 ## Preprints
@@ -50,4 +61,3 @@ description: "Peer-reviewed articles, preprints, manuscripts, and research softw
 **Ackaah, E. K.** (2026). Version 1.0.0. Zenodo.
 
 [DOI: 10.5281/zenodo.21819138](https://doi.org/10.5281/zenodo.21819138) · [GitHub repository](https://github.com/Enock-ackaah/DNA-Methylation-Based-Tumor-Normal-Classification)
-

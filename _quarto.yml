@@ -8,8 +8,9 @@ website:
   description: "Applied statistician and biomedical data science researcher working on reliable and interpretable machine learning."
   favicon: assets/favicon.svg
   navbar:
-    background: "#081f3d"
-    foreground: light
+    title: false
+    background: white
+    foreground: dark
     left:
       - href: index.qmd
         text: Home
@@ -30,18 +31,15 @@ website:
         aria-label: LinkedIn
   page-footer:
     left: "© 2026 Enock Kumi Ackaah"
-    right: "Built with Quarto and published with GitHub Pages"
+    right: "Statistics · Machine Learning · Biomedical Data Science"
 
 format:
   html:
-    theme:
-      light: cosmo
-      dark: darkly
+    theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
     smooth-scroll: true
     link-external-newwindow: true
 
 execute:
   freeze: auto
-

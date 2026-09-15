@@ -2,6 +2,7 @@
 title: "Curriculum Vitae"
 description: "Education, appointments, research, and technical expertise."
 toc: false
+page-layout: full
 ---
 
 ## Education
@@ -28,4 +29,3 @@ University of Cape Coast, Cape Coast, Ghana · August 2023 · GPA: 3.16/4.00
 - American Statistical Association
 
 [Download the complete CV](assets/Enock_Kumi_Ackaah_CV.pdf){.btn .btn-primary}
-
