@@ -36,11 +36,19 @@ page-layout: full
 
 ## Preprints
 
+::: {.publication-row}
+::: {.publication-thumb .preprint-thumb aria-label="Preprint published in 2026"}
+<span>PREPRINT</span>
+<strong>2026</strong>
+:::
+::: {.publication-details}
 ### Cancer Classification in Low- and High-Dimensional Biomedical Data Using Machine Learning Models
 
 **Ackaah, E. K., & Datta, S.** (2026). *Preprints*.
 
-[DOI: 10.20944/preprints202608.0073.v1](https://doi.org/10.20944/preprints202608.0073.v1) · [GitHub repository](https://github.com/Enock-ackaah/cancer-classification-low-high-dimensional-data)
+[Preprint](https://doi.org/10.20944/preprints202608.0073.v1){.paper-link} [GitHub](https://github.com/Enock-ackaah/cancer-classification-low-high-dimensional-data){.paper-link}
+:::
+:::
 
 ## Manuscripts in preparation
 

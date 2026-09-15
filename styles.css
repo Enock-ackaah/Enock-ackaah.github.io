@@ -116,6 +116,22 @@ a:hover { color: #3b2a00; }
 }
 .publication-thumb figure { margin: 0; }
 .publication-thumb figcaption { display: none; }
+.preprint-thumb {
+  display: grid;
+  place-content: center;
+  min-height: 170px;
+  background: linear-gradient(145deg, #faf7ef, #eee4cb);
+  color: var(--academic-gold-dark);
+  text-align: center;
+}
+.preprint-thumb span {
+  font-size: .82rem;
+  letter-spacing: .18em;
+}
+.preprint-thumb strong {
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
 .publication-details h3 { margin: 0 0 .35rem; color: var(--academic-gold); }
 .publication-details p { margin: .25rem 0; }
 .paper-link {
