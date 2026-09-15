@@ -1,81 +1,91 @@
 ---
 title: "Enock Kumi Ackaah"
-body-classes: homepage
+body-classes: academic-home
 page-layout: full
 toc: false
 ---
-<style>
-#title-block-header {
-  display: none !important;
-}
-</style>
-::: {.hero}
-::: {.hero-copy}
-## Applied Statistics · Machine Learning · Biomedical Data Science
 
-I am an applied statistician and biomedical data science researcher developing reliable, interpretable, and reproducible machine-learning methods for complex biomedical data.
+::: {.profile-layout}
+::: {.profile-card}
+<img src="assets/profile.jpg" class="profile-photo" alt="Enock Kumi Ackaah in the Georgia State University computer lab">
 
-My work focuses on high-dimensional and small-sample prediction, external validation, model calibration, feature-selection stability, and clinically meaningful evaluation.
+# Enock Kumi Ackaah
 
-[Explore my research](research.qmd){.btn .btn-primary} [View publications](publications.qmd){.btn .btn-outline-primary} [Download CV](assets/Enock_Kumi_Ackaah_CV.pdf){.btn .btn-outline-secondary}
+**Applied Statistician & Biomedical Data Science Researcher**
+
+Georgia State University<br>
+Atlanta, Georgia
+
+[GitHub](https://github.com/Enock-ackaah) · [LinkedIn](https://www.linkedin.com/in/ackaah-enock-kumi) · [CV](assets/Enock_Kumi_Ackaah_CV.pdf)
 :::
 
-::: {.hero-mark aria-label="EKA initials"}
-EKA
+::: {.profile-content}
+## Enock Kumi Ackaah
+
+I am an applied statistician and biomedical data science researcher at Georgia State University. My work develops reliable, interpretable, and reproducible machine-learning methods for complex biomedical data.
+
+My research focuses on high-dimensional and small-sample prediction, external validation, model calibration, feature-selection stability, and clinically meaningful evaluation.
+
+## Education
+
+::: {.education-entry}
+**Georgia State University**<br>
+Atlanta, Georgia · 2026–Present<br>
+M.S. in Applied Statistics
+:::
+
+::: {.education-entry}
+**The University of Akron**<br>
+Akron, Ohio · 2024–2026<br>
+M.S. in Statistics
+:::
+
+::: {.education-entry}
+**University of Cape Coast**<br>
+Cape Coast, Ghana · 2019–2023<br>
+B.Sc. in Mathematics and Statistics
+:::
+
+## Research interests
+
+- **Reliable biomedical AI:** model stability, calibration, uncertainty, and external validation.
+- **High-dimensional biomedical data:** RNA sequencing, DNA methylation, and small-sample prediction.
+- **Explainable machine learning:** reproducible feature selection and clinically meaningful interpretation.
 :::
 :::
 
-## Research at a glance
+## News
 
-::: {.research-grid}
-::: {.focus-card}
-### Reliable biomedical AI
+- **September 2026:** Published a critical narrative review of machine learning for hospital energy forecasting and load optimisation.
+- **August 2026:** Published a critical review of false positives and false negatives in AI-assisted imaging screening.
+- **August 2026:** Released a preprint on cancer classification in low- and high-dimensional biomedical data.
 
-Evaluating whether predictive performance remains stable across samples, validation settings, and external populations.
+## Selected publications
+
+::: {.publication-row}
+::: {.publication-thumb}
+![Article record for the hospital energy forecasting review.](assets/publication-energy.png)
 :::
-
-::: {.focus-card}
-### High-dimensional data
-
-Developing leakage-safe analyses for RNA-sequencing, DNA-methylation, clinical, and multimodal biomedical datasets.
-:::
-
-::: {.focus-card}
-### Interpretability and validation
-
-Studying feature stability, calibration, uncertainty, reproducibility, and human oversight in healthcare prediction models.
-:::
-:::
-
-## Latest publications
-
-::: {.publication-card}
+::: {.publication-details}
 ### Predictive Analytics and Machine Learning for Energy Forecasting and Load Optimisation in Hospital Systems
 
-*Journal of Scientific Research and Reports*, 32(9), 448–467, September 2026  
-A critical narrative review of predictive analytics and machine learning for hospital energy forecasting and load optimisation.
+Confidence Akosile, Obianuju Ezenwanne, **Enock Ackaah**, et al.<br>
+*Journal of Scientific Research and Reports*, 32(9), 448–467, 2026.
 
-[Read the article](https://doi.org/10.9734/jsrr/2026/v32i94483)
+[Article](https://doi.org/10.9734/jsrr/2026/v32i94483){.paper-link} [All publications](publications.qmd){.paper-link}
+:::
 :::
 
-::: {.publication-card}
+::: {.publication-row}
+::: {.publication-thumb}
+![Article record for the AI-assisted imaging screening review.](assets/publication-imaging.png)
+:::
+::: {.publication-details}
 ### Reducing False Positives and False Negatives in Artificial Intelligence-assisted Imaging Screening
 
-*Journal of Advances in Medical and Pharmaceutical Sciences*, 28(9), 104–125, August 2026  
-A critical review of screening accuracy, error mechanisms, and the clinical translation of AI-assisted imaging.
+Musa Shamaki Ibrahim, **Enock Ackaah**, Charity Benewa Acheampong, et al.<br>
+*Journal of Advances in Medical and Pharmaceutical Sciences*, 28(9), 104–125, 2026.
 
-[Read the article](https://doi.org/10.9734/jamps/2026/v28i9891)
+[Article](https://doi.org/10.9734/jamps/2026/v28i9891){.paper-link} [All publications](publications.qmd){.paper-link}
 :::
-
-[See all publications →](publications.qmd){.more-link}
-
-## Current research
-
-### Statistical Reliability of High-Dimensional Breast Cancer RNA-Sequencing Models
-
-This project examines how development sample size affects predictive performance, feature-selection stability, coefficient-direction reproducibility, probability accuracy, and external generalization in estrogen-receptor status prediction.
-.homepage #title-block-header {
-  display: none;
-}
-[Project details](research.qmd#statistical-reliability-of-high-dimensional-breast-cancer-rna-sequencing-models) · [GitHub repository](https://github.com/Enock-ackaah/statistical-reliability-high-dimensional-er-models) · [Zenodo release](https://doi.org/10.5281/zenodo.21524693)
-
+:::
