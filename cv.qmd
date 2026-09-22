@@ -15,6 +15,7 @@ The University of Akron, Akron, Ohio · May 2026
 
 **B.Sc. in Mathematics and Statistics**  
 University of Cape Coast, Cape Coast, Ghana · August 2023 
+
 ## Technical expertise
 
 **Programming and computing:** Python, R, SQL, C++, Git, GitHub, Jupyter Notebook, and VS Code  
