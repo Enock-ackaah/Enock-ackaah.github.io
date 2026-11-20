@@ -65,7 +65,7 @@ B.Sc. in Mathematics and Statistics
 
 ::: {.conference-feature}
 ::: {.conference-feature-image}
-![Enock Kumi Ackaah presenting his cancer-classification research poster at Georgia State University.](assets/gsu-graduate-conference-poster.png)
+![Enock Kumi Ackaah presenting his cancer-classification research poster at Georgia State University.](assets/gsu-graduate-conference-poster.PNG)
 :::
 ::: {.conference-feature-copy}
 ### Graduate Conference for Research, Scholarship, and Creative Activity
