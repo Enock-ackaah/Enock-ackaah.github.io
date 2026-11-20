@@ -20,5 +20,5 @@ I am grateful to my co-authors, [Mandy Ash](https://www.linkedin.com/in/mandy-as
 ::: {.conference-gallery}
 ![Presenting the cancer-classification research poster at Georgia State University’s Graduate Conference for Research, Scholarship, and Creative Activity.](assets/gsu-graduate-conference-full.png)
 
-![Standing with the research poster during the graduate conference at Georgia State University.](assets/gsu-graduate-conference-poster.jpg)
+![Standing with the research poster during the graduate conference at Georgia State University.](assets/gsu-graduate-conference-poster.png)
 :::
