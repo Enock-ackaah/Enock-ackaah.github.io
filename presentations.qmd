@@ -1,0 +1,24 @@
+---
+title: "Presentations"
+description: "Conference presentations and research highlights by Enock Kumi Ackaah."
+page-layout: full
+toc: false
+---
+
+## Graduate Conference for Research, Scholarship, and Creative Activity
+
+**Georgia State University · Atlanta, Georgia · November 18, 2026**
+
+I presented our research, *Cancer Classification in Low- and High-Dimensional Biomedical Data Using Machine Learning Models*, at Georgia State University’s Graduate Conference for Research, Scholarship, and Creative Activity.
+
+The study examines machine learning for cancer classification using Breast Tissue and DNA-methylation data. It emphasizes the importance of evaluating model reliability when the available sample is small relative to the number of features.
+
+I am grateful to my co-authors, [Mandy Ash](https://www.linkedin.com/in/mandy-ash/) and Sujay Datta, for their contributions and support, and to [Georgia State University](https://www.linkedin.com/school/georgiastateuniversity/) for organizing the conference.
+
+[Read the preprint](https://doi.org/10.20944/preprints202608.0073.v1){.paper-link} [View the project](https://github.com/Enock-ackaah/cancer-classification-low-high-dimensional-data){.paper-link}
+
+::: {.conference-gallery}
+![Presenting the cancer-classification research poster at Georgia State University’s Graduate Conference for Research, Scholarship, and Creative Activity.](assets/gsu-graduate-conference-full.png)
+
+![Standing with the research poster during the graduate conference at Georgia State University.](assets/gsu-graduate-conference-poster.jpg)
+:::

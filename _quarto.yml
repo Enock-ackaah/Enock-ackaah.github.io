@@ -18,6 +18,8 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
+      - href: presentations.qmd
+        text: Presentations
       - href: teaching.qmd
         text: Teaching
       - href: cv.qmd

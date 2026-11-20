@@ -153,6 +153,49 @@ a:hover { color: #3b2a00; }
 }
 .publication-card h3 { color: var(--academic-gold); }
 
+.conference-feature {
+  display: grid;
+  grid-template-columns: minmax(260px, .9fr) minmax(0, 1.1fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 1.4rem 0 3.5rem;
+  padding: 1.2rem;
+  border: 1px solid var(--academic-line);
+  background: var(--academic-soft);
+}
+.conference-feature-image figure,
+.conference-gallery figure { margin: 0; }
+.conference-feature-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 38%;
+}
+.conference-feature-image figcaption { display: none; }
+.conference-feature-copy h3 { margin-top: 0; }
+
+.conference-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.75rem 0 2.75rem;
+}
+.conference-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: 0 5px 18px rgba(42, 32, 16, .12);
+}
+.conference-gallery figcaption {
+  margin-top: .5rem;
+  color: var(--academic-muted);
+  font-size: .9rem;
+  line-height: 1.45;
+}
+
 .teaching-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -193,6 +236,8 @@ a:hover { color: #3b2a00; }
   .profile-card { position: static; max-width: 320px; margin-inline: auto; }
   .publication-row { grid-template-columns: 1fr; gap: 1rem; }
   .publication-thumb { max-width: 340px; }
+  .conference-feature,
+  .conference-gallery { grid-template-columns: 1fr; }
   .teaching-gallery { grid-template-columns: 1fr; }
   .navbar .nav-link { padding: .65rem .8rem !important; }
   .navbar .nav-link.active::after { display: none; }

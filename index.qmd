@@ -56,9 +56,25 @@ B.Sc. in Mathematics and Statistics
 
 ## News
 
+- **November 18, 2026:** Presented our cancer-classification research at Georgia State University’s Graduate Conference for Research, Scholarship, and Creative Activity. [View presentation highlights](presentations.qmd)
 - **September 2026:** Published a critical narrative review of machine learning for hospital energy forecasting and load optimisation.
 - **August 2026:** Published a critical review of false positives and false negatives in AI-assisted imaging screening.
 - **August 2026:** Released a preprint on cancer classification in low- and high-dimensional biomedical data.
+
+## Recent presentation
+
+::: {.conference-feature}
+::: {.conference-feature-image}
+![Enock Kumi Ackaah presenting his cancer-classification research poster at Georgia State University.](assets/gsu-graduate-conference-poster.jpg)
+:::
+::: {.conference-feature-copy}
+### Graduate Conference for Research, Scholarship, and Creative Activity
+
+I presented our research on machine learning for cancer classification using Breast Tissue and DNA-methylation data, with an emphasis on model reliability in small-sample, high-dimensional settings.
+
+[View presentation highlights](presentations.qmd){.paper-link}
+:::
+:::
 
 ## Selected publications
 
