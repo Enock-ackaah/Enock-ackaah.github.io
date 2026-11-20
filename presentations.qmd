@@ -18,7 +18,7 @@ I am grateful to my co-authors, [Mandy Ash](https://www.linkedin.com/in/mandy-as
 [Read the preprint](https://doi.org/10.20944/preprints202608.0073.v1){.paper-link} [View the project](https://github.com/Enock-ackaah/cancer-classification-low-high-dimensional-data){.paper-link}
 
 ::: {.conference-gallery}
-![Presenting the cancer-classification research poster at Georgia State University’s Graduate Conference for Research, Scholarship, and Creative Activity.](assets/gsu-graduate-conference-full.png)
+![Presenting the cancer-classification research poster at Georgia State University’s Graduate Conference for Research, Scholarship, and Creative Activity.](assets/gsu-graduate-conference-full.PNG)
 
-![Standing with the research poster during the graduate conference at Georgia State University.](assets/gsu-graduate-conference-poster.png)
+![Standing with the research poster during the graduate conference at Georgia State University.](assets/gsu-graduate-conference-poster.PNG)
 :::
